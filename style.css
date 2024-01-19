@@ -3,14 +3,49 @@
     margin: 0;
 }
 
+body{
+    background-color: #303446;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+nav{
+    padding: 1rem;
+    background-color: #414559;
+}
+
+nav a{
+    font-size: 2rem;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    text-decoration: none;
+    text-align:center
+}
+nav a:hover{
+    background-color: #949cbb;
+}
+
 h1{
-    font-size: 1.25rem;
+    font-size: 5rem;
+}
+
+h2{
+    padding: 1rem;
+    font-size: 3rem;
+}
+
+h3{
+    font-size: 2rem;
+    padding: 0rem 1rem;
+}
+
+header p{
+    font-size: 2rem;
 }
 
 header{
     text-align: center;
-    padding: 5rem;
-    background-color: #303446;
+    padding: 3rem;
+    background-color: #626880;
 }
 
 
